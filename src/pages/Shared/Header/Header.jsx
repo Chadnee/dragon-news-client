@@ -24,15 +24,16 @@ const Header = () => {
     }
 
     return (
-        <Container className='mb-4 '>
-        <div className='text-center'>
+        <Container className='mb-4 mt-5'>
+        <div className='text-center '>
             <img src={logo} className='mb-1' alt="" />
             <p className='text-secondary mb-3'>Journalism Without Fear or Favour</p>
             <p>{moment().format("dddd, MMMM D, YYYY")}</p>
             <div className='d-flex mb-3'>
             <Button variant="danger" className=''>Latest</Button>
-            <Marquee pauseOnClick={false} speed={100}>
-            I can be a React component, multiple React components, or just some text.
+            <Marquee className='text-danger' pauseOnClick={false} speed={100}>
+            
+        President Joe Biden announced nearly $3 billion in military aid to Kyiv on Wednesday the biggest US package mark Ukraine's independence day
             </Marquee>
             </div>
     <NavBar></NavBar>
