@@ -10,6 +10,7 @@ import Register from '../pages/Home/Register/Register';
 import News from '../layout/News';
 import PrivateRoute from './PrivateRoute';
 import Terms from '../pages/Home/Register/Terms';
+import About from '../pages/Home/Home/About/About';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/terms",
         element: <Terms></Terms>
+      },
+      {
+        path: "/about",
+        element: <PrivateRoute><About></About></PrivateRoute>
       }
     ]
 

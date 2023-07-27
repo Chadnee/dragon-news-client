@@ -11,7 +11,7 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto text-danger my-2">
             <Link className='text-decoration-none text-secondary fw-bold  pe-5' to = "/">Home</Link>
-            <Link className='text-decoration-none text-secondary fw-bold  pe-5' to = "">About</Link>
+            <Link className='text-decoration-none text-secondary fw-bold  pe-5' to = "/about">About</Link>
             <Link className='text-decoration-none text-secondary fw-bold  pe-5' to = "">Profile</Link>
           </Nav>
         </Navbar.Collapse>
